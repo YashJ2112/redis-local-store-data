@@ -4,7 +4,7 @@ import pandas as pd
 from datetime import datetime
 
 # Load the data into a DataTable object
-data = dt.fread("data.csv")
+data = dt.fread("data/my_data.csv")
 
 # Convert DataTable to a list of dictionaries
 df = data.to_pandas()
